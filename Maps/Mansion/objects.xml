@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- notes for handling writing this stuff-->
+
+<!--
+
+	the name is to make it simple to see what's wanting to be loaded, the model name is the actual mesh name.
+	use collradius if you want a cylinder, otherwise use collwidth if you want a square (leave the other one 0)
+	moving set to true if you want the object to move along a path
+	usepath if you want to use the navigation mesh from the map to make the object move along a path
+	sound not implemented in igunz yet
+	reverseanimation currently is used along with minheight and maxheight for objects moving along the z axis
+	scale for adjusting the size of the object (note, you'll need to adjust the radius, width, or height to match the scale of the object).
+	position and direction self explanatory
+	speed is used to make the object move x distance based on the last time the update function was called (every 33.33ms or 30fps)
+	use animation if you want to give the model an animation. can name it whatever you want.
+
+	==================================================================================================================================================
+
+	Type description:
+		0 = Simple / static object
+		1 = Programable object (changed by code)
+		2 = Moving Object (automatic move object based on NAV or Position)
+
+	Collision Description:
+		0 = Mesh (not require collision attributes)
+		1 = Cylinder
+		2 = Square
+
+	Required Attributes:
+		Base / Required:
+			name
+			type
+			position
+			direction
+			scale
+
+		For type 3:
+			model
+			collidable
+			collradius | used if collision is different of 0
+			collwidth | used if collision is different of 0
+			collheight | used if collision is different of 0
+			sound
+			reverseanimation
+			usepath
+	
+	Children:
+		Base / Required:
+			<POSITION>0,0,0</POSITION>
+			<ROTATION>0,0,0</ROTATION>
+			<SCALE>1,1,1</SCALE>
+
+		For type 3:
+			<COLLISION>0</COLLISION>
+			<ANIMATION>run</ANIMATION>
+			<ENDPOSITION>START+ 0,0,0</ENDPOSITION> 'START+ ' will sum start position of the object + the destination position
+			<SPEED>100</SPEED>
+
+-->
+<XML>
+		<OBJECT type="2" name="box" model="goblinG" collidable="true" collradius="95" collwidth="95" collheight="160" reverseanimation="false" sound="mt_wod" usepath="false">
+			<POSITION>13,-200,0</POSITION>
+			<ROTATION>0,0,0</ROTATION>
+			<SCALE>1,1,1</SCALE>
+			<COLLISION>2</COLLISION>
+
+			<ENDPOSITION>START+ 0,0,1000</ENDPOSITION>
+			<SPEED>100</SPEED>
+			<!--ANIMATION>run</ANIMATION-->
+		</OBJECT>
+</XML>

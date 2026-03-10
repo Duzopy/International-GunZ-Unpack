@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<XML ID="RankingInfo">
+
+	<FRAME item="RankingInfoFrame">
+		<FRAMELOOK>DefaultFrameLook</FRAMELOOK>
+		<BOUNDS>
+			<X>0</X>
+			<Y>0</Y>
+			<W>500</W>
+			<H>455</H>
+		</BOUNDS>
+		<ALIGN>
+			<HALIGN>center</HALIGN>
+			<VALIGN>center</VALIGN>
+		</ALIGN>
+		<RESIZABLE>false</RESIZABLE>
+		<FOCUSABLE>false</FOCUSABLE>
+		<VISIBLE>false</VISIBLE>
+		<TEXT>Ranking Information:</TEXT>
+	</FRAME>
+
+	<LISTBOX item="RankingInfoListBox" parent="RankingInfoFrame">
+		<LISTBOXLOOK>NullListBoxLook</LISTBOXLOOK>
+		<BOUNDS>
+			<X>16</X>
+			<Y>40</Y>
+			<W>466</W>
+			<H>455</H>
+		</BOUNDS>
+		<ITEMHEIGHT>32</ITEMHEIGHT>
+		<STRETCH/>
+	</LISTBOX>
+	
+	<BUTTON item="RankedInfoButtonClose" parent="RankingInfoFrame">
+		<BOUNDS>
+			<X>375</X>
+			<Y>410</Y>
+			<W>100</W>
+			<H>32</H>
+		</BOUNDS>
+		<TEXT>STR:UI_LOBBY_05</TEXT> <!-- 클랜전 취소 -->
+		<DEFAULTKEY>ESC</DEFAULTKEY>
+	</BUTTON>
+</XML>

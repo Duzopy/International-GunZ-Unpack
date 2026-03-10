@@ -1,0 +1,4 @@
+<xml>
+	<map id="0" MapName="Mansion" BspFile="maps/Mansion/Mansion.rs"/>
+	<map id="1" MapName="Town" BspFile="maps/Town/Town.rs"/>
+</xml>

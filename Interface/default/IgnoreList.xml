@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<XML ID="ChannelList">
+	<Schema xmlns="MaietData" xmlns:dt="MaietDataTypes" />
+	<FRAME item="IgnoreListFrame">
+		<FRAMELOOK>DefaultFrameLook</FRAMELOOK>
+		<BOUNDS>
+			<X>0</X>
+			<Y>150</Y>
+			<W>400</W>
+			<H>420</H>
+		</BOUNDS>
+		<ALIGN>
+			<HALIGN>center</HALIGN>
+			<VALIGN>center</VALIGN>
+		</ALIGN>
+		<RESIZABLE>false</RESIZABLE>
+		<VISIBLE>false</VISIBLE>
+		<TEXT>Ignore List</TEXT>
+	</FRAME>
+			
+	<LISTBOX item="IgnoreList" parent="IgnoreListFrame">
+		<LISTBOXLOOK>NullListBoxLook</LISTBOXLOOK>
+		<FONT>FONTa9</FONT>
+		<TEXTCOLOR>
+			<R>205</R>
+			<G>205</G>
+			<B>205</B>
+		</TEXTCOLOR>
+		<ANCHORS>
+			<LEFT>true</LEFT>
+			<TOP>true</TOP>
+			<RIGHT>true</RIGHT>
+			<BOTTOM>true</BOTTOM>
+		</ANCHORS>
+		<BOUNDS>
+			<X>10</X>
+			<Y>20</Y>
+			<W>380</W>
+			<H>290</H>
+		</BOUNDS>
+		<ITEMHEIGHT>20</ITEMHEIGHT>
+		<TEXTALIGN>
+			<VALIGN>center</VALIGN>
+		</TEXTALIGN>
+	</LISTBOX>
+	
+	<EDIT item="IgnoreListInputField" parent="IgnoreListFrame">
+		<FONT>FONTa9</FONT>
+		<TEXTCOLOR>
+			<R>205</R>
+			<G>205</G>
+			<B>205</B>
+		</TEXTCOLOR>
+		<BOUNDS>
+			<X>10</X>
+			<Y>315</Y>
+			<W>170</W>
+			<H>24</H>
+		</BOUNDS>
+		<MAXLENGTH>32</MAXLENGTH>
+		<VISIBLE>true</VISIBLE>
+	</EDIT>
+	
+	<BUTTON item="IgnoreListAddButton" parent="IgnoreListFrame">	
+		<BUTTONLOOK>DefaultButtonLook</BUTTONLOOK>
+		<ANCHORS>
+			<LEFT>true</LEFT>
+			<TOP>true</TOP>
+			<RIGHT>true</RIGHT>
+			<BOTTOM>true</BOTTOM>
+		</ANCHORS>
+		<BOUNDS>
+			<X>10</X>
+			<Y>345</Y>
+			<W>100</W>
+			<H>32</H>
+		</BOUNDS>
+		<TEXT>Add</TEXT>
+	</BUTTON>
+	
+	<BUTTON item="IgnoreListRemoveButton" parent="IgnoreListFrame">	
+		<BUTTONLOOK>DefaultButtonLook</BUTTONLOOK>
+		<ANCHORS>
+			<LEFT>true</LEFT>
+			<TOP>true</TOP>
+			<RIGHT>true</RIGHT>
+			<BOTTOM>true</BOTTOM>
+		</ANCHORS>
+		<BOUNDS>
+			<X>120</X>
+			<Y>345</Y>
+			<W>100</W>
+			<H>32</H>
+		</BOUNDS>
+		<TEXT>Remove</TEXT>
+	</BUTTON>
+	
+	<BUTTON item="IgnoreListCloseButton" parent="IgnoreListFrame">	
+		<BUTTONLOOK>DefaultButtonLook</BUTTONLOOK>
+		<ANCHORS>
+			<LEFT>true</LEFT>
+			<TOP>true</TOP>
+			<RIGHT>true</RIGHT>
+			<BOTTOM>true</BOTTOM>
+		</ANCHORS>
+		<BOUNDS>
+			<X>285</X>
+			<Y>375</Y>
+			<W>100</W>
+			<H>32</H>
+		</BOUNDS>
+		<TEXT>STR:UI_COMMON_OK</TEXT>
+		<DEFAULTKEY>ESC</DEFAULTKEY>
+	</BUTTON>
+</XML>

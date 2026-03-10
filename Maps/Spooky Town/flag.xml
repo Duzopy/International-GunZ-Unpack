@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<XML>
+	<FLAG NAME="obj_flag_b 111.elu" DIRECTION="90" POWER="5.0">
+		<WINDTYPE TYPE="1" DELAY="1000">
+	</FLAG>
+	<FLAG NAME="obj_flag_b 112.elu" DIRECTION="90" POWER="5.0">
+		<WINDTYPE TYPE="1" DELAY="1000">
+	</FLAG>
+	<FLAG NAME="obj_flag_b 113.elu" DIRECTION="90" POWER="5.0">
+		<WINDTYPE TYPE="1" DELAY="1000">
+	</FLAG>
+	<FLAG NAME="obj_flag_b 114.elu" DIRECTION="90" POWER="5.0">
+		<WINDTYPE TYPE="1" DELAY="1000">
+	</FLAG>
+	<FLAG NAME="obj_flag_b 115.elu" DIRECTION="90" POWER="5.0">
+		<WINDTYPE TYPE="1" DELAY="1000">
+	</FLAG>
+	<FLAG NAME="obj_flag_b 116.elu" DIRECTION="90" POWER="5.0">
+		<WINDTYPE TYPE="1" DELAY="1000">
+	</FLAG>
+	<FLAG NAME="obj_flag_b 151.elu" DIRECTION="90" POWER="5.0">
+		<WINDTYPE TYPE="1" DELAY="1000">
+	</FLAG>
+	<FLAG NAME="obj_flag_b 03.elu" DIRECTION="90" POWER="5.0">
+		<WINDTYPE TYPE="1" DELAY="1000"/>
+	</FLAG>
+	<FLAG NAME="obj_flag_b 02.elu" DIRECTION="90" POWER="5.0">
+		<WINDTYPE TYPE="1" DELAY="500"/>
+	</FLAG>
+	<FLAG NAME="obj_flag_b 01.elu" DIRECTION="90" POWER="5.0">
+		<WINDTYPE TYPE="1" DELAY="1000"/>
+	</FLAG>
+	<FLAG NAME="obj_flag_a 04.elu" DIRECTION="90" POWER="5.0">
+		<WINDTYPE TYPE="1" DELAY="500"/>
+	</FLAG>
+	<FLAG NAME="obj_flag_a 03.elu" DIRECTION="90" POWER="5.0">
+		<WINDTYPE TYPE="1" DELAY="1000"/>
+	</FLAG>
+	<FLAG NAME="obj_flag_a 02.elu" DIRECTION="90" POWER="5.0">
+		<WINDTYPE TYPE="1" DELAY="1000"/>
+	</FLAG>
+	<FLAG NAME="obj_flag_a 01.elu" DIRECTION="90" POWER="5.0">
+		<WINDTYPE TYPE="1" DELAY="1500"/>
+	</FLAG>
+</XML>

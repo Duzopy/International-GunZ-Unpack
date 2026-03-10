@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+
+<NPCModel></NPCModel>
+<AddBaseModel name="halloweenNPC" filename="halloweenNPC.elu"> </AddBaseModel>
+<MakeAnimationMap ></MakeAnimationMap>
+
+<AddAnimation name="idle"filename="man_grenade_taunt.elu.ani"  gm="0"motion_type="0" motion_loop_type="loop" > </AddAnimation>
+
+<AddAnimation name="neglect1"filename="man_1hsmg_taunt.elu.ani" gm="0"motion_type="0" motion_loop_type="loop" > </AddAnimation>
+
+<AddAnimation name="melee_attacked1"filename="man_damage.elu.ani"  gm="1"motion_type="0" motion_loop_type="loop" > </AddAnimation>
+<AddAnimation name="melee_attacked2"filename="man_damage2.elu.ani" gm="1"motion_type="0" motion_loop_type="loop" > </AddAnimation>
+<AddAnimation name="range_attacked1"filename="man_damage.elu.ani" gm="1"motion_type="0" motion_loop_type="loop" > </AddAnimation>
+<AddAnimation name="lightning"filename="man_damage_lightning.elu.ani"  gm="1"motion_type="0" motion_loop_type="loop" > </AddAnimation>
+
+<AddAnimation name="melee_attack"filename="woman_knife_slash.elu.ani" gm="1" motion_type="0" motion_loop_type="loop" > </AddAnimation>
+
+<AddAnimation name="run"filename="man_knife_Ftumble.elu.ani"gm="1" motion_type="0" motion_loop_type="loop" > </AddAnimation>
+
+<AddAnimation name="die"filename="man_die3.elu.ani" gm="1" motion_type="0" motion_loop_type="lastframe" > </AddAnimation>
+
+<AddAnimation name="special_attack1" filename="man_login_blade_intro.elu.ani" gm="1"motion_type="0" motion_loop_type="lastframe" > </AddAnimation>
+<AddAnimation name="special_attack2" filename="man_knife_standshot_3.elu.ani" gm="1"motion_type="0" motion_loop_type="lastframe" > </AddAnimation>
+
+<AddAnimation name="stunned" filename="man_damage_down.elu.ani" gm="1" motion_type="0" motion_loop_type="lastframe" > </AddAnimation>
+
+</xml>

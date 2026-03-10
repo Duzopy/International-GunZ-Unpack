@@ -1,0 +1,340 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<XML ID="Login">
+	<Schema xmlns="MaietData" xmlns:dt="MaietDataTypes" />
+
+<!--
+
+Edited By Rauno Leinasaar
+
+-->
+
+
+<!-- Base Login Frame -->
+	<FRAME item="Login">
+		<FRAMELOOK>NullFrameLook</FRAMELOOK>
+		<BOUNDS>
+			<X>0</X>
+			<Y>0</Y>
+			<W>800</W>
+			<H>600</H>
+		</BOUNDS>
+		<TITLEBAR>false</TITLEBAR>
+		<RESIZABLE>false</RESIZABLE>
+		<FOCUSABLE>false</FOCUSABLE>
+		<VISIBLE>false</VISIBLE>
+	</FRAME>
+	
+<!-- Background Picture -->
+	<PICTURE item="Login_BackgrdImg" parent="Login">
+		<BOUNDS>
+			<X>0</X>
+			<Y>0</Y>
+			<W>800</W>
+			<H>600</H>
+		</BOUNDS>
+		<STRETCH/>
+		<BITMAP></BITMAP>
+	</PICTURE>
+	
+  <!-- Actual Login Frame-->
+	<FRAME item="LoginFrame" parent="Login">
+		<FRAMELOOK>NullFrameLook</FRAMELOOK>
+		<BOUNDS>
+			<X>0</X>
+			<Y>0</Y>
+			<W>800</W>
+			<H>600</H>
+		</BOUNDS>
+		<TITLEBAR>false</TITLEBAR>
+		<RESIZABLE>false</RESIZABLE>
+		<FOCUSABLE>false</FOCUSABLE>
+		<VISIBLE>false</VISIBLE>
+	</FRAME>
+
+  <!-- Main Login Box -->
+	<PICTURE item="Carbon_LoginImage" parent="LoginFrame">
+		<BOUNDS>
+			<X>197</X>
+			<Y>280</Y>
+			<W>400</W>
+			<H>220</H>
+		</BOUNDS>
+		<STRETCH/>
+		<BITMAP>loginpanel.png</BITMAP>
+	</PICTURE>
+
+
+<!-- Main Login Text (Connecting...) -->
+	<LABEL item="Login_ConnectingMsg" parent="Login">
+		<FONT>FONTb11b</FONT>
+		<TEXTCOLOR>
+			<R>0</R>
+			<G>162</G>
+			<B>255</B>
+		</TEXTCOLOR>
+		<BOUNDS>
+			<X>190</X>
+			<Y>290</Y>
+			<W>400</W>
+			<H>25</H>
+		</BOUNDS>
+		<STRETCH/>
+		<VISIBLE>false</VISIBLE>
+		<TEXT>Connecting</TEXT>
+	</LABEL>
+
+<!-- Server Selection -->
+	<!-- Server Selection Frame -->
+	<SERVERVIEW item="SelectedServer" parent="LoginFrame">
+		<BOUNDS>
+			<X>229</X>
+			<Y>315</Y>
+			<W>220</W>
+			<H>120</H>
+		</BOUNDS>
+	</SERVERVIEW>
+
+  <!-- Username Label -->
+  <LABEL item="LabelUsername" parent="LoginFrame">
+    <BOUNDS>
+      <X>225</X>
+      <Y>430</Y>
+      <W>200</W>
+      <H>24</H>
+    </BOUNDS>
+    <TEXT>Username</TEXT>
+    <VISIBLE>true</VISIBLE>
+  </LABEL>
+
+  <!-- Username Box Color -->
+  <LISTBOX item="nulllistbox" parent="LoginFrame">
+    <LISTBOXLOOK>EquipListBoxLook</LISTBOXLOOK>
+    <BOUNDS>
+      <X>290</X>
+      <Y>433</Y>
+      <W>80</W>
+      <H>20</H>
+    </BOUNDS>
+    <ENABLE>FALSE</ENABLE>
+  </LISTBOX>
+  
+	<!-- Username Box Input -->
+	<EDIT item="LoginID" parent="LoginFrame">
+		<EDITLOOK>NormalEditLook</EDITLOOK>
+		<BOUNDS>
+      <X>290</X>
+      <Y>433</Y>
+			<W>80</W>
+			<H>20</H>
+		</BOUNDS>
+		<TEXTCOLOR>
+			<R>194</R>
+			<G>152</G>
+			<B>122</B>
+		</TEXTCOLOR>
+		<TEXT></TEXT>
+	</EDIT>
+
+  <!-- Password Label -->
+  <LABEL item="LabelPassword" parent="LoginFrame">
+    <BOUNDS>
+      <X>375</X>
+      <Y>430</Y>
+      <W>200</W>
+      <H>24</H>
+    </BOUNDS>
+    <TEXT>Password</TEXT>
+    <VISIBLE>true</VISIBLE>
+  </LABEL>
+
+  <!-- Password Box Color -->
+  <LISTBOX item="nulllistbox" parent="LoginFrame">
+    <LISTBOXLOOK>EquipListBoxLook</LISTBOXLOOK>
+    <BOUNDS>
+      <X>440</X>
+      <Y>433</Y>
+      <W>80</W>
+      <H>20</H>
+    </BOUNDS>
+    <ENABLE>FALSE</ENABLE>
+  </LISTBOX>
+
+  <!-- Password Box Input -->
+	<EDIT item="LoginPassword" parent="LoginFrame">
+		<EDITLOOK>NormalEditLook</EDITLOOK>
+		<PASSWORD>true</PASSWORD>
+		<BOUNDS>
+			<X>440</X>
+			<Y>433</Y>
+			<W>80</W>
+			<H>20</H>
+		</BOUNDS>
+		<TEXTCOLOR>
+			<R>194</R>
+			<G>152</G>
+			<B>122</B>
+		</TEXTCOLOR>
+		<TEXT></TEXT>
+	</EDIT>
+
+<!-- Login Error Text -->
+	<LABEL item="LoginError" parent="LoginFrame">
+		<TEXTCOLOR>
+			<R>0</R>
+			<G>162</G>
+			<B>255</B>
+		</TEXTCOLOR>
+		<BOUNDS>
+			<X>233</X>
+			<Y>361</Y>
+			<W>200</W>
+			<H>32</H>
+		</BOUNDS>
+		<TEXT></TEXT>
+	</LABEL>
+	
+	
+	<!-- Press Enter to Login -->
+	<BUTTON item="LoginOK" parent="LoginFrame">
+		<BUTTONLOOK>DefaultButtonLook</BUTTONLOOK>
+		<BOUNDS>
+			<X>0</X>
+			<Y>0</Y>
+			<W>0</W>
+			<H>0</H>
+		</BOUNDS>
+		<DEFAULTKEY>ENTER</DEFAULTKEY>
+		<FOCUSABLE>FALSE</FOCUSABLE>
+	</BUTTON>
+
+  <!-- Exit Button -->
+  <BUTTON item="Exit" parent="LoginFrame">
+    <BUTTONLOOK>DefaultButtonLook</BUTTONLOOK>
+    <BOUNDS>
+      <X>461</X>
+      <Y>310</Y>
+      <W>70</W>
+      <H>26</H>
+    </BOUNDS>
+    <STRETCH/>
+    <TEXT>Exit</TEXT>
+    <CONFIRMMESSAGE>STR:UI_LOGIN_05</CONFIRMMESSAGE> <!-- Do you want to quit the game? -->
+    <CONFIRMLOOK>DefaultFrameLook</CONFIRMLOOK>
+    <FOCUSABLE>FALSE</FOCUSABLE>
+  </BUTTON>
+
+  <!-- Options Button -->
+  <BUTTON item="OptionFrame" parent="LoginFrame">
+    <BUTTONLOOK>DefaultButtonLook</BUTTONLOOK>
+    <BOUNDS>
+      <X>461</X>
+      <Y>331</Y>
+      <W>70</W>
+      <H>26</H>
+    </BOUNDS>
+    <STRETCH/>
+    <TEXT>Options</TEXT>
+  </BUTTON>
+
+  <!-- Replay Button -->
+  <BUTTON item="ReplayLoginCaller" parent="LoginFrame">
+    <BUTTONLOOK>DefaultButtonLook</BUTTONLOOK>
+    <BOUNDS>
+      <X>461</X>
+      <Y>352</Y>
+      <W>70</W>
+      <H>26</H>
+    </BOUNDS>
+    <STRETCH/>
+    <TEXT>Replays</TEXT>
+  </BUTTON>
+
+  <!-- Register Button --> 
+	<BUTTON item="CreateAccountFrameCaller" parent="LoginFrame">
+		<BUTTONLOOK>DefaultButtonLook</BUTTONLOOK>
+		<BOUNDS>
+			<X>461</X>
+			<Y>373</Y>
+			<W>70</W>
+			<H>26</H>
+		</BOUNDS>
+		<STRETCH/>
+		<TEXT>Register</TEXT>
+	</BUTTON>
+	
+  <!-- Login Button -->
+  <BUTTON item="LoginOK" parent="LoginFrame">
+    <BUTTONLOOK>DefaultButtonLook</BUTTONLOOK>
+    <BOUNDS>
+      <X>461</X>
+      <Y>394</Y>
+      <W>70</W>
+      <H>26</H>
+    </BOUNDS>
+    <STRETCH/>
+    <TEXT>Login</TEXT>
+    <CONFIRMLOOK>DefaultFrameLook</CONFIRMLOOK>
+    <FOCUSABLE>FALSE</FOCUSABLE>
+  </BUTTON>
+
+<!-- Important Notice -->
+
+ <BUTTON item="NoticeFrameCaller" parent="LoginFrame">
+    <BUTTONLOOK>DefaultButtonLook</BUTTONLOOK>
+    <BOUNDS>
+      <X>325</X>
+      <Y>500</Y>
+      <W>110</W>
+      <H>30</H>
+    </BOUNDS>
+    <STRETCH/>
+    <TEXT>Important Notice</TEXT>
+	<CONFIRMMESSAGE>Please Note:
+	iGunZ is currently in Beta, 
+	You will experience crashes and disconnects.
+	If you get disconnected, or unable to login, please try again,
+	or contact the iGunZ staff on Discord.</CONFIRMMESSAGE>
+    <CONFIRMLOOK>DefaultFrameLook</CONFIRMLOOK>
+    <FOCUSABLE>FALSE</FOCUSABLE>
+  </BUTTON>
+  
+	
+<!-- Server IP Settings -->
+	<!-- Debug Mode IP Label -->
+	<LABEL item="LabelServerIP" parent="LoginFrame">
+		<BOUNDS>
+			<X>130</X>
+			<Y>202</Y>
+			<W>200</W>
+			<H>24</H>
+		</BOUNDS>
+		<TEXT>Debug Server</TEXT>
+		<VISIBLE>false</VISIBLE>
+	</LABEL>
+
+	<!-- Debug Mode IP Textbox -->
+	<EDIT item="ServerAddress" parent="LoginFrame">
+		<EDITLOOK>NormalEditLook</EDITLOOK>
+		<BOUNDS>
+			<X>215</X>
+			<Y>202</Y>
+			<W>110</W>
+			<H>24</H>
+		</BOUNDS>
+		<TEXT></TEXT>
+		<VISIBLE>false</VISIBLE>
+	</EDIT>
+
+	<!-- Debug Mode Port Textbox -->
+	<EDIT item="ServerPort" parent="LoginFrame">
+		<EDITLOOK>NormalEditLook</EDITLOOK>
+		<BOUNDS>
+			<X>330</X>
+			<Y>202</Y>
+			<W>45</W>
+			<H>24</H>
+		</BOUNDS>
+		<TEXT></TEXT>
+		<VISIBLE>false</VISIBLE>
+	</EDIT>
+</XML>

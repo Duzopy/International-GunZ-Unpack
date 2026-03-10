@@ -1,0 +1,116 @@
+<?xml version="1.0" ?>
+<XML xmlns="http://tempuri.org/zitem.xsd" id="zquestitem">
+
+<!-- Page -->
+	<ITEM id="200001" name="[Lv. 5] Easy Quest" level="0" type="page" desc="STR:QITEM_DESC_200001"
+		unique="0" price="100" secrifice="1" param="0" />
+	<ITEM id="200002" name="[Lv. 10] Intermediate Quest" level="0" type="page" desc="STR:QITEM_DESC_200002"
+		unique="0" price="500" secrifice="1" param="0" />
+	<ITEM id="200003" name="[Lv. 15] Hard Quest" level="0" type="page" desc="STR:QITEM_DESC_200003"
+		unique="0" price="1000" secrifice="1" param="0" />
+	<ITEM id="200004" name="[Lv. 20] Extreme Quest" level="0" type="page" desc="STR:QITEM_DESC_200004"
+		unique="0" price="5000" secrifice="1" param="0" />
+
+<!-- Skull -->
+	<ITEM id="200005" name="Small Skull" level="0" type="skull" desc="STR:QITEM_DESC_200005"
+		unique="0" price="100" secrifice="1" param="0" />
+	<ITEM id="200006" name="Large Skull" level="0" type="skull" desc="STR:QITEM_DESC_200006"
+		unique="0" price="300" secrifice="1" param="0" />
+	<ITEM id="200007" name="Mysterious Skull" level="0" type="skull" desc="STR:QITEM_DESC_200007"
+		unique="0" price="300" secrifice="1" param="0" />
+	<ITEM id="200008" name="Goblin's Skull" level="0" type="skull" desc="STR:QITEM_DESC_200008"
+		unique="0" price="500" secrifice="1" param="0" />
+	<ITEM id="200009" name="Goblin King's Skull" level="0" type="skull" desc="STR:QITEM_DESC_200009"
+		unique="0" price="5000" secrifice="1" param="0" />
+	<ITEM id="200010" name="Enormously Huge Skull" level="0" type="skull" desc="STR:QITEM_DESC_200010"
+		unique="0" price="1000" secrifice="1" param="0" />
+
+<!-- Fresh -->
+	<ITEM id="200011" name="Raw Meat" level="0" type="fresh" desc="STR:QITEM_DESC_200011"
+		unique="0" price="100" secrifice="1" param="0" />
+	<ITEM id="200012" name="Seasoned Meat" level="0" type="fresh" desc="STR:QITEM_DESC_200012"
+		unique="0" price="200" secrifice="1" param="0" />
+	<ITEM id="200013" name="Steak" level="0" type="fresh" desc="STR:QITEM_DESC_200013"
+		unique="0" price="300" secrifice="1" param="0" />
+
+<!-- Ring -->
+	<ITEM id="200014" name="Iron Earring" level="0" type="ring" desc="STR:QITEM_DESC_200014"
+		unique="0" price="100" secrifice="1" param="0" />
+	<ITEM id="200015" name="Silver Earring" level="0" type="ring" desc="STR:QITEM_DESC_200015"
+		unique="0" price="200" secrifice="1" param="0" />
+	<ITEM id="200016" name="Gold Earring" level="0" type="ring" desc="STR:QITEM_DESC_200016"
+		unique="0" price="500" secrifice="1" param="0" />
+	<ITEM id="200017" name="Platinum Earring" level="0" type="ring" desc="STR:QITEM_DESC_200017"
+		unique="0" price="1000" secrifice="1" param="0" />
+
+<!-- Necklace -->
+	<ITEM id="200018" name="Crimson's Necklace" level="0" type="necklace" desc="STR:QITEM_DESC_200018"
+		unique="1" price="1000" secrifice="1" param="0" />
+
+<!-- Doll -->
+	<ITEM id="200019" name="Skeleton Doll" level="0" type="doll" desc="STR:QITEM_DESC_200019"
+		unique="0" price="1000" secrifice="1" param="0" />
+	<ITEM id="200020" name="Kobold Doll" level="0" type="doll" desc="STR:QITEM_DESC_200020"
+		unique="0" price="1000" secrifice="1" param="0" />
+	<ITEM id="200021" name="Goblin Doll" level="0" type="doll" desc="STR:QITEM_DESC_200021"
+		unique="0" price="1000" secrifice="1" param="0" />
+	<ITEM id="200022" name="Pampow Doll" level="0" type="doll" desc="STR:QITEM_DESC_200022"
+		unique="0" price="1000" secrifice="1" param="0" />
+	<ITEM id="200023" name="Rabbit Doll" level="0" type="doll" desc="STR:QITEM_DESC_200023"
+		unique="0" price="1000" secrifice="1" param="0" />
+	<ITEM id="200024" name="Stuffed Bear" level="0" type="doll" desc="STR:QITEM_DESC_200024"
+		unique="1" price="1000" secrifice="1" param="0" />
+	<ITEM id="200025" name="Cursed Bear" level="0" type="doll" desc="STR:QITEM_DESC_200025"
+		unique="0" price="1000" secrifice="1" param="0" />
+	<ITEM id="200026" name="Pampow Idol" level="0" type="doll" desc="STR:QITEM_DESC_200026"
+		unique="0" price="1000" secrifice="1" param="0" />
+	<ITEM id="200027" name="Cursed Pampow Idol" level="0" type="doll" desc="STR:QITEM_DESC_200027"
+		unique="0" price="1000" secrifice="1" param="0" />
+<!-- Book -->
+	<ITEM id="200028" name="Devil's Dictionary" level="0" type="book" desc="STR:QITEM_DESC_200028"
+		unique="0" price="80000" secrifice="1" param="0" />
+	<ITEM id="200029" name="Scrider's Register Volume I" level="0" type="book" desc="STR:QITEM_DESC_200029"
+		unique="0" price="40000" secrifice="1" param="0" />
+	<ITEM id="200030" name="Scrider's Register Volume II" level="0" type="book" desc="STR:QITEM_DESC_200030"
+		unique="0" price="40000" secrifice="1" param="0" />
+
+<!-- Object -->
+	<ITEM id="200031" name="Blessed Cross (Trophy)" level="0" type="object" desc="STR:QITEM_DESC_200031"
+		unique="0" price="5000" secrifice="1" param="0" />
+	<ITEM id="200032" name="Cursed Cross (Trophy)" level="0" type="object" desc="STR:QITEM_DESC_200032"
+		unique="0" price="5000" secrifice="1" param="0" />
+	<ITEM id="200033" name="Pickaxe (Trophy)" level="0" type="object" desc="STR:QITEM_DESC_200033"
+		unique="0" price="5000" secrifice="1" param="0" />
+	<ITEM id="200034" name="Speaking Stone (Trophy)" level="0" type="object" desc="STR:QITEM_DESC_200034"
+		unique="0" price="5000" secrifice="1" param="0" />
+	<ITEM id="200035" name="Ice Crystal (Trophy)" level="0" type="object" desc="STR:QITEM_DESC_200035"
+		unique="0" price="5000" secrifice="1" param="0" />
+	<ITEM id="200036" name="Broken Gear (Trophy)" level="0" type="object" desc="STR:QITEM_DESC_200036"
+		unique="0" price="5000" secrifice="1" param="0" />
+	<ITEM id="200037" name="High-class Gear" level="0" type="object" desc="STR:QITEM_DESC_200037"
+		unique="0" price="800" secrifice="1" param="0" />
+
+<!-- Sword -->
+	<ITEM id="200038" name="Goblin King's Axe (Trophy)" level="0" type="sword" desc="STR:QITEM_DESC_200038"
+		unique="0" price="5000" secrifice="1" param="0" />
+	<ITEM id="200039" name="Kobold King's Axe (Trophy)" level="0" type="sword" desc="STR:QITEM_DESC_200039"
+		unique="0" price="5000" secrifice="1" param="0" />
+	<ITEM id="200040" name="Superion's Sword (Trophy)" level="0" type="sword" desc="STR:QITEM_DESC_200040"
+		unique="0" price="5000" secrifice="1" param="0" />
+	<ITEM id="200041" name="Aneramon's Sword (Trophy)" level="0" type="sword" desc="STR:QITEM_DESC_200041"
+		unique="0" price="5000" secrifice="1" param="0" />
+	<ITEM id="200042" name="Lich's Tail (Trophy)" level="0" type="sword" desc="STR:QITEM_DESC_200042"
+		unique="0" price="5000" secrifice="1" param="0" />
+	<ITEM id="200043" name="Pampow's Ice Sword (Trophy)" level="0" type="sword" desc="STR:QITEM_DESC_200043"
+		unique="0" price="5000" secrifice="1" param="0" />
+
+<!-- Monster bible -->
+	<ITEM id="210001" name="STR:QITEM_NAME_210001" level="0" type="monbible" desc="STR:QITEM_DESC_210001"
+		unique="0" price="0" secrifice="0" param="0" />
+		
+<!-- Halloween Page -->
+	<ITEM id="200044" name="Cursed Pumpkin" level="0" type="pumpkin" desc="Burn this pumpkin to summon a haunted foe!"
+		unique="0" price="2000" secrifice="1" param="0" />
+		
+
+</XML>

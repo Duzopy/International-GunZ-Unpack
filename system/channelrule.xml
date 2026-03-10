@@ -1,0 +1,259 @@
+<?xml version="1.0" ?>
+<!--
+  GAMETYPE_DEATHMATCH_SOLO  = 0
+  GAMETYPE_DEATHMATCH_TEAM  = 1
+  GAMETYPE_GLADIATOR_SOLO   = 2
+  GAMETYPE_GLADIATOR_TEAM   = 3
+  GAMETYPE_ASSASSINATE      = 4
+  GAMETYPE_TRAINING         = 5
+  GAMETYPE_SURVIVAL         = 6
+  GAMETYPE_QUEST            = 7
+  GAMETYPE_BERSERKER        = 8 
+  GAMETYPE_DEATHMATCH_TEAM2 = 9
+  GAMETYPE_DEATHMATCH_DUEL  = 10
+  GAMETYPE_SKILLMAP         = 11
+  GAMETYPE_GUNGAME          = 12
+-->
+
+<XML id="channelrule">
+
+  <CHANNELRULE id="2" name="mastery">
+    <!-- Available Game Modes-->
+    <GAMETYPE id="0" />
+    <GAMETYPE id="8" />
+    <GAMETYPE id="1" />
+    <GAMETYPE id="9" />
+    <GAMETYPE id="10" />
+    <GAMETYPE id="2" />
+    <GAMETYPE id="3" />
+    <GAMETYPE id="4" />
+    <GAMETYPE id="5" />
+	<GAMETYPE id="11" />
+
+    <!-- All Modes Available -->
+    <MAP name="Battle Arena" />
+    <MAP name="Castle" />
+	<MAP name="Citadel" />
+    <MAP name="Courtyard" />
+    <MAP name="Crypt" />
+    <MAP name="Dojo" />
+    <MAP name="Dungeon" />
+    <MAP name="Dungeon II" />
+    <MAP name="Factory" />
+    <MAP name="Garden" />
+    <MAP name="High Haven" />
+    <MAP name="Island" />
+    <MAP name="Lodge" />
+    <MAP name="Lost Shrine" />
+    <MAP name="Mansion" />
+	<MAP name="MansionRemake" />
+    <MAP name="Pavilion" />
+    <MAP name="Port" />
+    <MAP name="Prison" />
+    <MAP name="Prison II" />
+    <MAP name="Ruin" />
+    <MAP name="Settlement" />
+    <MAP name="Stairway" />
+    <MAP name="Station" />
+    <MAP name="Snow Town" />
+	<MAP name="Spooky Town" />
+    <MAP name="Town" />
+    <MAP name="Thieves' Den" />
+    <MAP name="Weapon Shop" />
+
+
+    <!-- Duel Mode Only -->
+	<MAP name="Abyss" />
+	<MAP name="Alley" />
+	<MAP name="Arena_Hall" />
+	<MAP name="Basement" />
+	<MAP name="Bridge" />
+    <MAP name="Catacomb" />
+	<MAP name="Cave" />
+	<MAP name="Church2" />
+	<MAP name="Colosseum" />
+    <MAP name="Corridor" />
+    <MAP name="Dining Room" />
+	<MAP name="Dock" />
+    <MAP name="Foyer" />
+    <MAP name="Hall" />
+	<MAP name="Haven" />
+	<MAP name="Hedge" />
+    <MAP name="Jail" />
+    <MAP name="Keep" />
+	<MAP name="Lobby" />
+	<MAP name="Lost_Bridge" />
+    <MAP name="Library" />
+	<MAP name="Lockdown" />
+	<MAP name="Manufactory" />
+	<MAP name="NewVault" />	
+    <MAP name="Passage" />
+	<MAP name="Ruined" />
+    <MAP name="Shower Room" />
+	<MAP name="SpookyHall" />
+    <MAP name="Stockade" />
+	<MAP name="Temple" />
+	<MAP name="Warehouse" />
+    <MAP name="Vault" />
+  </CHANNELRULE>
+
+  <CHANNELRULE id="4" name="elite">
+    <!-- Available Game Modes-->
+    <GAMETYPE id="0" />
+    <GAMETYPE id="8" />
+    <GAMETYPE id="1" />
+    <GAMETYPE id="9" />
+    <GAMETYPE id="10" />
+    <GAMETYPE id="2" />
+    <GAMETYPE id="3" />
+    <GAMETYPE id="4" />
+    <GAMETYPE id="5" />
+	<GAMETYPE id="11" />
+
+    <!-- All Modes Available -->
+    <MAP name="Battle Arena" />
+    <MAP name="Castle" />
+	<MAP name="Citadel" />
+    <MAP name="Courtyard" />
+    <MAP name="Crypt" />
+    <MAP name="Dojo" />
+    <MAP name="Dungeon" />
+    <MAP name="Dungeon II" />
+    <MAP name="Factory" />
+    <MAP name="Garden" />
+    <MAP name="High Haven" />
+    <MAP name="Island" />
+    <MAP name="Lodge" />
+    <MAP name="Lost Shrine" />
+    <MAP name="Mansion" />
+	<MAP name="MansionRemake" />
+    <MAP name="Pavilion" />
+    <MAP name="Port" />
+    <MAP name="Prison" />
+    <MAP name="Prison II" />
+    <MAP name="Ruin" />
+    <MAP name="Settlement" />
+    <MAP name="Stairway" />
+    <MAP name="Station" />
+    <MAP name="Snow Town" />
+	<MAP name="Spooky Town" />
+    <MAP name="Town" />
+    <MAP name="Thieves' Den" />
+    <MAP name="Weapon Shop" />
+
+
+    <!-- Duel Mode Only -->
+	<MAP name="Abyss" />
+	<MAP name="Alley" />
+	<MAP name="Arena_Hall" />
+	<MAP name="Basement" />
+	<MAP name="Bridge" />
+    <MAP name="Catacomb" />
+	<MAP name="Cave" />
+	<MAP name="Church2" />
+	<MAP name="Colosseum" />
+    <MAP name="Corridor" />
+    <MAP name="Dining Room" />
+	<MAP name="Dock" />
+    <MAP name="Foyer" />
+    <MAP name="Hall" />
+	<MAP name="Haven" />
+	<MAP name="Hedge" />
+    <MAP name="Jail" />
+    <MAP name="Keep" />
+	<MAP name="Lobby" />
+	<MAP name="Lost_Bridge" />
+    <MAP name="Library" />
+	<MAP name="Lockdown" />
+	<MAP name="Manufactory" />
+	<MAP name="NewVault" />	
+    <MAP name="Passage" />
+	<MAP name="Ruined" />
+    <MAP name="Shower Room" />
+	<MAP name="SpookyHall" />
+    <MAP name="Stockade" />
+	<MAP name="Temple" />
+	<MAP name="Warehouse" />
+    <MAP name="Vault" />
+  </CHANNELRULE>
+  
+  <CHANNELRULE id="5" name="event">
+    <!-- Available Game Modes-->
+    <GAMETYPE id="0" />
+    <GAMETYPE id="8" />
+    <GAMETYPE id="1" />
+    <GAMETYPE id="9" />
+    <GAMETYPE id="10" />
+    <GAMETYPE id="2" />
+    <GAMETYPE id="3" />
+    <GAMETYPE id="4" />
+    <GAMETYPE id="5" />
+	<GAMETYPE id="11" />
+
+    <!-- All Modes Available -->
+    <MAP name="Battle Arena" />
+    <MAP name="Castle" />
+	<MAP name="Citadel" />
+    <MAP name="Courtyard" />
+    <MAP name="Crypt" />
+    <MAP name="Dojo" />
+    <MAP name="Dungeon" />
+    <MAP name="Dungeon II" />
+    <MAP name="Factory" />
+    <MAP name="Garden" />
+    <MAP name="High Haven" />
+    <MAP name="Island" />
+    <MAP name="Lodge" />
+    <MAP name="Lost Shrine" />
+    <MAP name="Mansion" />
+	<MAP name="MansionRemake" />
+    <MAP name="Pavilion" />
+    <MAP name="Port" />
+    <MAP name="Prison" />
+    <MAP name="Prison II" />
+    <MAP name="Ruin" />
+    <MAP name="Settlement" />
+    <MAP name="Stairway" />
+    <MAP name="Station" />
+    <MAP name="Snow Town" />
+	<MAP name="Spooky Town" />
+    <MAP name="Town" />
+    <MAP name="Thieves' Den" />
+    <MAP name="Weapon Shop" />
+
+
+    <!-- Duel Mode Only -->
+	<MAP name="Abyss" />
+	<MAP name="Alley" />
+	<MAP name="Arena_Hall" />
+	<MAP name="Basement" />
+	<MAP name="Bridge" />
+    <MAP name="Catacomb" />
+	<MAP name="Cave" />
+	<MAP name="Church2" />
+	<MAP name="Colosseum" />
+    <MAP name="Corridor" />
+    <MAP name="Dining Room" />
+	<MAP name="Dock" />
+    <MAP name="Foyer" />
+    <MAP name="Hall" />
+	<MAP name="Haven" />
+	<MAP name="Hedge" />
+    <MAP name="Jail" />
+    <MAP name="Keep" />
+	<MAP name="Lobby" />
+	<MAP name="Lost_Bridge" />
+    <MAP name="Library" />
+	<MAP name="Lockdown" />
+	<MAP name="Manufactory" />
+	<MAP name="NewVault" />	
+    <MAP name="Passage" />
+	<MAP name="Ruined" />
+    <MAP name="Shower Room" />
+	<MAP name="SpookyHall" />
+    <MAP name="Stockade" />
+	<MAP name="Temple" />
+	<MAP name="Warehouse" />
+    <MAP name="Vault" />
+  </CHANNELRULE>
+</XML>

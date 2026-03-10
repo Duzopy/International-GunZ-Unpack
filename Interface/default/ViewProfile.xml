@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<XML ID="ChannelList">
+	<Schema xmlns="MaietData" xmlns:dt="MaietDataTypes" />
+	<FRAME item="ViewProfileFrame">
+		<FRAMELOOK>DefaultFrameLook</FRAMELOOK>
+		<BOUNDS>
+			<X>0</X>
+			<Y>50</Y>
+			<W>500</W>
+			<H>500</H>
+		</BOUNDS>
+		<ALIGN>
+			<HALIGN>center</HALIGN>
+			<VALIGN>center</VALIGN>
+		</ALIGN>
+		<RESIZABLE>false</RESIZABLE>
+		<VISIBLE>false</VISIBLE>
+		<TEXT>Character Profile</TEXT>
+	</FRAME>
+	
+	<CHARACTERVIEW item="ViewProfile_CharViewer" parent="ViewProfileFrame">
+		<BOUNDS>
+			<X>150</X>
+			<Y>90</Y>
+			<W>188</W>
+			<H>310</H>
+		</BOUNDS>
+		<TEXT></TEXT>
+		<TITLEBAR>false</TITLEBAR>
+		<RESIZABLE>false</RESIZABLE>
+		<MOVABLE>false</MOVABLE>
+		<VISIBLE>true</VISIBLE>
+	</CHARACTERVIEW>
+	
+	<LABEL item="ViewProfile_PlayerName" parent="ViewProfileFrame">
+		<FONT>FONTa12_O2Wht</FONT>
+		<TEXTCOLOR>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
+		</TEXTCOLOR>
+		<ANCHORS>
+			<LEFT>true</LEFT>
+			<TOP>true</TOP>
+			<RIGHT>false</RIGHT>
+			<BOTTOM>false</BOTTOM>
+		</ANCHORS>
+		<BOUNDS>
+			<X>20</X>
+			<Y>20</Y>
+			<W>200</W>
+			<H>20</H>
+		</BOUNDS>
+	</LABEL>
+	
+	<LABEL item="ViewProfile_PlayerClanName" parent="ViewProfileFrame">
+		<FONT>FONTa9</FONT>
+		<TEXTCOLOR>
+			<R>170</R>
+			<G>170</G>
+			<B>170</B>
+		</TEXTCOLOR>
+		<ANCHORS>
+			<LEFT>true</LEFT>
+			<TOP>true</TOP>
+			<RIGHT>false</RIGHT>
+			<BOTTOM>false</BOTTOM>
+		</ANCHORS>
+		<BOUNDS>
+			<X>20</X>
+			<Y>38</Y>
+			<W>200</W>
+			<H>20</H>
+		</BOUNDS>
+	</LABEL>
+	
+	<LABEL item="ViewProfile_PlayerAccountGrade" parent="ViewProfileFrame">
+		<FONT>FONTa9</FONT>
+		<TEXTCOLOR>
+			<R>170</R>
+			<G>170</G>
+			<B>170</B>
+		</TEXTCOLOR>
+		<ANCHORS>
+			<LEFT>true</LEFT>
+			<TOP>true</TOP>
+			<RIGHT>false</RIGHT>
+			<BOTTOM>false</BOTTOM>
+		</ANCHORS>
+		<BOUNDS>
+			<X>20</X>
+			<Y>54</Y>
+			<W>200</W>
+			<H>20</H>
+		</BOUNDS>
+	</LABEL>
+	
+	<FRAME item="ViewProfile_PlayerEquipListFrame" parent="ViewProfileFrame">
+		<FRAMELOOK>NullFrameLook</FRAMELOOK>
+		<BOUNDS>
+			<X>5</X>
+			<Y>50</Y>
+			<W>300</W>
+			<H>450</H>
+		</BOUNDS>
+		<TEXT></TEXT>
+		<TITLEBAR>false</TITLEBAR>
+		<RESIZABLE>false</RESIZABLE>
+		<MOVABLE>false</MOVABLE>
+		<FOCUSABLE>false</FOCUSABLE>
+		<VISIBLE>true</VISIBLE>
+	</FRAME>
+
+<!--
+	<PICTURE item="ViewProfile_BGListFrameClose" parent="ViewProfile_PlayerEquipListFrame">
+		<BOUNDS>
+			<X>2</X>
+			<Y>26</Y>
+			<W>65</W>
+			<H>419</H>
+		</BOUNDS>
+		<STRETCH/>
+		<VISIBLE>false</VISIBLE>
+		<BITMAP>listframeclose.tga</BITMAP>
+	</PICTURE>
+
+	<PICTURE item="ViewProfile_BGListFrameOpen" parent="ViewProfile_PlayerEquipListFrame">
+		<BOUNDS>
+			<X>2</X>
+			<Y>26</Y>
+			<W>265</W>
+			<H>419</H>
+		</BOUNDS>
+		<STRETCH/>
+		<BITMAP>listframeopen.tga</BITMAP>
+	</PICTURE>
+-->
+	<!-- ITEMSLOT : 머리 -->
+	<ITEMSLOT item="ViewProfile_EquipmentSlot_Head" parent="ViewProfile_PlayerEquipListFrame" parts="head">
+		<BOUNDS>
+			<X>10</X>
+			<Y>32</Y>
+			<W>220</W>
+			<H>32</H>
+		</BOUNDS>
+		<STRETCH/>
+		<BITMAP>slot_empty.tga</BITMAP>			
+	</ITEMSLOT>
+
+	<!-- ITEMSLOT : 가슴 -->
+	<ITEMSLOT item="ViewProfile_EquipmentSlot_Chest" parent="ViewProfile_PlayerEquipListFrame" parts="chest">
+		<BOUNDS>
+			<X>10</X>
+			<Y>66</Y>
+			<W>220</W>
+			<H>32</H>
+		</BOUNDS>
+		<STRETCH/>
+		<BITMAP>slot_empty.tga</BITMAP>	
+	</ITEMSLOT>
+
+	<!-- ITEMSLOT : 손 -->
+	<ITEMSLOT item="ViewProfile_EquipmentSlot_Hands" parent="ViewProfile_PlayerEquipListFrame" parts="hands">
+		<BOUNDS>
+			<X>10</X>
+			<Y>100</Y>
+			<W>220</W>
+			<H>32</H>
+		</BOUNDS>
+		<STRETCH/>
+		<BITMAP>slot_empty.tga</BITMAP>
+	</ITEMSLOT>
+
+	<!-- ITEMSLOT : 다리 -->
+	<ITEMSLOT item="ViewProfile_EquipmentSlot_Legs" parent="ViewProfile_PlayerEquipListFrame" parts="legs">
+		<BOUNDS>
+			<X>10</X>
+			<Y>134</Y>
+			<W>220</W>
+			<H>32</H>
+		</BOUNDS>
+		<STRETCH/>
+		<BITMAP>slot_empty.tga</BITMAP>	
+	</ITEMSLOT>
+	
+	<!-- ITEMSLOT : 발 -->
+	<ITEMSLOT item="ViewProfile_EquipmentSlot_Feet" parent="ViewProfile_PlayerEquipListFrame" parts="feet">
+		<BOUNDS>
+			<X>10</X>
+			<Y>168</Y>
+			<W>220</W>
+			<H>32</H>
+		</BOUNDS>
+		<STRETCH/>
+		<BITMAP>slot_empty.tga</BITMAP>	
+	</ITEMSLOT>
+	
+		<!-- ITEMSLOT : 아이템1 -->
+	<ITEMSLOT item="ViewProfile_EquipmentSlot_FingerL" parent="ViewProfile_PlayerEquipListFrame" parts="fingerl">
+		<BOUNDS>
+			<X>10</X>
+			<Y>372</Y>
+			<W>220</W>
+			<H>32</H>
+		</BOUNDS>
+		<STRETCH/>
+		<BITMAP>slot_empty.tga</BITMAP>	
+	</ITEMSLOT>
+
+	<!-- ITEMSLOT : Finger Right
+	<ITEMSLOT item="Equip_EquipmentSlot_FingerR" parent="ViewProfile_PlayerEquipListFrame" parts="fingerr">
+		<BOUNDS>
+			<X>10</X>
+			<Y>406</Y>
+			<W>220</W>
+			<H>32</H>
+		</BOUNDS>
+		<STRETCH/>
+		<BITMAP>slot_empty.tga</BITMAP>	
+	</ITEMSLOT>
+  -->
+
+  <!-- ITEMSLOT : Grenade -->
+	<ITEMSLOT item="ViewProfile_EquipmentSlot_Grenade" parent="ViewProfile_PlayerEquipListFrame" parts="grenade">
+		<BOUNDS>
+			<X>10</X>
+			<Y>406</Y>
+			<W>220</W>
+			<H>32</H>
+		</BOUNDS>
+		<STRETCH/>
+		<BITMAP>slot_empty.tga</BITMAP>	
+	</ITEMSLOT>
+
+	<!-- ITEMSLOT : 보조 무기 -->
+	<ITEMSLOT item="ViewProfile_EquipmentSlot_Melee" parent="ViewProfile_PlayerEquipListFrame" parts="melee">
+		<BOUNDS>
+			<X>10</X>
+			<Y>202</Y>
+			<W>220</W>
+			<H>32</H>
+		</BOUNDS>
+		<STRETCH/>
+		<BITMAP>slot_empty.tga</BITMAP>	
+	</ITEMSLOT>
+	
+	<!-- ITEMSLOT : 주 무기1 -->
+	<ITEMSLOT item="ViewProfile_EquipmentSlot_Primary" parent="ViewProfile_PlayerEquipListFrame" parts="primary">
+		<BOUNDS>
+			<X>10</X>
+			<Y>236</Y>
+			<W>220</W>
+			<H>32</H>
+		</BOUNDS>
+		<STRETCH/>
+		<BITMAP>slot_empty.tga</BITMAP>	
+	</ITEMSLOT>
+	
+	<!-- ITEMSLOT : 주 무기2 -->
+	<ITEMSLOT item="ViewProfile_EquipmentSlot_Secondary" parent="ViewProfile_PlayerEquipListFrame" parts="secondary">
+		<BOUNDS>
+			<X>10</X>
+			<Y>270</Y>
+			<W>220</W>
+			<H>32</H>
+		</BOUNDS>
+		<STRETCH/>
+		<BITMAP>slot_empty.tga</BITMAP>	
+	</ITEMSLOT>
+	
+	<!-- ITEMSLOT : 보조 아이템1 -->
+	<ITEMSLOT item="ViewProfile_EquipmentSlot_Custom1" parent="ViewProfile_PlayerEquipListFrame" parts="custom1">
+		<BOUNDS>
+			<X>10</X>
+			<Y>304</Y>
+			<W>220</W>
+			<H>32</H>
+		</BOUNDS>
+		<STRETCH/>
+		<BITMAP>slot_empty.tga</BITMAP>	
+	</ITEMSLOT>
+
+	<!-- ITEMSLOT : 보조 아이템2 -->
+	<ITEMSLOT item="ViewProfile_EquipmentSlot_Custom2" parent="ViewProfile_PlayerEquipListFrame" parts="custom2">
+		<BOUNDS>
+			<X>10</X>
+			<Y>338</Y>
+			<W>220</W>
+			<H>32</H>
+		</BOUNDS>
+		<STRETCH/>
+		<BITMAP>slot_empty.tga</BITMAP>	
+	</ITEMSLOT>
+  
+	<!--
+	<BMBUTTON item="ViewProfile_EquipListFrameOpenButton" parent="ViewProfile_PlayerEquipListFrame">
+	<BUTTONLOOK>NormalBmButtonLook</BUTTONLOOK>
+		<BOUNDS>
+			<X>48</X>
+			<Y>159</Y>
+			<W>22</W>
+			<H>110</H>
+		</BOUNDS>
+		<STRETCH/>
+		<BITMAP type="up">listframeopenbtn_off.tga</BITMAP>
+		<BITMAP type="over">listframeopenbtn_on.tga</BITMAP>
+		<BITMAP type="down">listframeopenbtn_on.tga</BITMAP>
+		<TEXT></TEXT>
+		<VISIBLE>false</VISIBLE>
+	</BMBUTTON>
+
+	<BMBUTTON item="ViewProfile_EquipListFrameCloseButton" parent="ViewProfile_PlayerEquipListFrame">
+	<BUTTONLOOK>NormalBmButtonLook</BUTTONLOOK>
+		<BOUNDS>
+			<X>248</X>
+			<Y>159</Y>
+			<W>22</W>
+			<H>110</H>
+		</BOUNDS>
+		<STRETCH/>
+		<BITMAP type="up">listframeclosebtn_off.tga</BITMAP>
+		<BITMAP type="over">listframeclosebtn_on.tga</BITMAP>
+		<BITMAP type="down">listframeclosebtn_on.tga</BITMAP>
+		<TEXT></TEXT>
+	</BMBUTTON>
+	-->
+	
+	<LABEL item="ViewProfile_PlayerLevel" parent="ViewProfileFrame">
+		<FONT>FONTa10b</FONT>
+		<TEXTCOLOR>
+			<R>170</R>
+			<G>170</G>
+			<B>170</B>
+		</TEXTCOLOR>
+		<ANCHORS>
+			<LEFT>true</LEFT>
+			<TOP>true</TOP>
+			<RIGHT>false</RIGHT>
+			<BOTTOM>false</BOTTOM>
+		</ANCHORS>
+		<BOUNDS>
+			<X>340</X>
+			<Y>32</Y>
+			<W>200</W>
+			<H>20</H>
+		</BOUNDS>
+	</LABEL>
+	
+	<LABEL item="ViewProfile_PlayerHP" parent="ViewProfileFrame">
+		<FONT>FONTa10b</FONT>
+		<TEXTCOLOR>
+			<R>170</R>
+			<G>170</G>
+			<B>170</B>
+		</TEXTCOLOR>
+		<ANCHORS>
+			<LEFT>true</LEFT>
+			<TOP>true</TOP>
+			<RIGHT>false</RIGHT>
+			<BOTTOM>false</BOTTOM>
+		</ANCHORS>
+		<BOUNDS>
+			<X>340</X>
+			<Y>52</Y>
+			<W>200</W>
+			<H>20</H>
+		</BOUNDS>
+	</LABEL>
+	
+	<LABEL item="ViewProfile_PlayerAP" parent="ViewProfileFrame">
+		<FONT>FONTa10b</FONT>
+		<TEXTCOLOR>
+			<R>170</R>
+			<G>170</G>
+			<B>170</B>
+		</TEXTCOLOR>
+		<ANCHORS>
+			<LEFT>true</LEFT>
+			<TOP>true</TOP>
+			<RIGHT>false</RIGHT>
+			<BOTTOM>false</BOTTOM>
+		</ANCHORS>
+		<BOUNDS>
+			<X>340</X>
+			<Y>72</Y>
+			<W>200</W>
+			<H>20</H>
+		</BOUNDS>
+	</LABEL>
+	
+	<LABEL item="ViewProfile_PlayerKills" parent="ViewProfileFrame">
+		<FONT>FONTa10b</FONT>
+		<TEXTCOLOR>
+			<R>170</R>
+			<G>170</G>
+			<B>170</B>
+		</TEXTCOLOR>
+		<ANCHORS>
+			<LEFT>true</LEFT>
+			<TOP>true</TOP>
+			<RIGHT>false</RIGHT>
+			<BOTTOM>false</BOTTOM>
+		</ANCHORS>
+		<BOUNDS>
+			<X>340</X>
+			<Y>92</Y>
+			<W>200</W>
+			<H>20</H>
+		</BOUNDS>
+	</LABEL>
+	
+	<LABEL item="ViewProfile_PlayerDeaths" parent="ViewProfileFrame">
+		<FONT>FONTa10b</FONT>
+		<TEXTCOLOR>
+			<R>170</R>
+			<G>170</G>
+			<B>170</B>
+		</TEXTCOLOR>
+		<ANCHORS>
+			<LEFT>true</LEFT>
+			<TOP>true</TOP>
+			<RIGHT>false</RIGHT>
+			<BOTTOM>false</BOTTOM>
+		</ANCHORS>
+		<BOUNDS>
+			<X>340</X>
+			<Y>112</Y>
+			<W>200</W>
+			<H>20</H>
+		</BOUNDS>
+	</LABEL>
+	
+	<BUTTON item="ViewProfileCloseButton" parent="ViewProfileFrame">	
+		<BUTTONLOOK>DefaultButtonLook</BUTTONLOOK>
+		<ANCHORS>
+			<LEFT>true</LEFT>
+			<TOP>true</TOP>
+			<RIGHT>true</RIGHT>
+			<BOTTOM>true</BOTTOM>
+		</ANCHORS>
+		<BOUNDS>
+			<X>385</X>
+			<Y>460</Y>
+			<W>100</W>
+			<H>32</H>
+		</BOUNDS>
+		<TEXT>STR:UI_COMMON_OK</TEXT>
+		<DEFAULTKEY>ESC</DEFAULTKEY>
+	</BUTTON>
+</XML>
